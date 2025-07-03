@@ -1,0 +1,4 @@
+[tools]
+node = "latest"
+purescript = "latest"
+spago = "latest"
