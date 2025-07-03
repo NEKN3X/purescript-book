@@ -2,13 +2,12 @@ module Test.Main where
 
 import ChapterExamples (Amp(..), Volt(..), current, fromString, gcd, gcdV2, isEmpty, livesInLA, lzs, partialFunction, showPerson, showPersonV2, sortPair, takeFive, toString, unknownPerson)
 import Data.Int (round)
-import Data.Int as Int
 import Data.Maybe (Maybe(..))
 import Data.Person (Person)
 import Data.Picture (Picture, Shape(..), getCenter, origin)
 import Effect (Effect)
 import Prelude (Unit, discard, negate, ($))
-import Test.MySolutions (MyShape(..), Watt(..), area, binomial, calculateWattage, circleAtOrigin, doubleScaleAndCenter, factorial, fromSingleton, pascal, sameCity, shapeBounds, shapeText)
+import Test.MySolutions (Watt(..), area, binomial, calculateWattage, circleAtOrigin, doubleScaleAndCenter, factorial, fromSingleton, pascal, sameCity, shapeText)
 import Test.Unit (TestSuite, suite, test)
 import Test.Unit.Assert as Assert
 import Test.Unit.Main (runTest)

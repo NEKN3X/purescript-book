@@ -6,11 +6,9 @@ import ChapterExamples (Amp(..), Person, Volt(..))
 import Data.Maybe (Maybe)
 import Data.Maybe as Maybe
 import Data.Number (pi)
-import Data.Number as Number
-import Data.Picture (Bounds, Picture, Shape(..), Point, origin)
+import Data.Picture (Bounds, Picture, Point, Shape, origin)
 import Data.Picture as Picture
 import Data.Picture as Shape
-import Prim.TypeError (class Warn)
 
 factorial :: Int -> Int
 factorial 0 = 1
