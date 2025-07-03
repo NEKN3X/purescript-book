@@ -1,63 +1,77 @@
 {
-  "folders": [
-    {
-      "path": "."
-    },
-    {
-      "path": "exercises/chapter2"
-    },
-    {
-      "path": "exercises/chapter3"
-    },
-    {
-      "path": "exercises/chapter4"
-    },
-    {
-      "path": "exercises/chapter5"
-    },
-    {
-      "path": "exercises/chapter6"
-    },
-    {
-      "path": "exercises/chapter7"
-    },
-    {
-      "path": "exercises/chapter8"
-    },
-    {
-      "path": "exercises/chapter9"
-    },
-    {
-      "path": "exercises/chapter10"
-    },
-    {
-      "path": "exercises/chapter11"
-    },
-    {
-      "path": "exercises/chapter12"
-    },
-    {
-      "path": "exercises/chapter13"
-    },
-    {
-      "path": "exercises/chapter14"
-    }
-  ],
-  "settings": {
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "exercises": true
-    }
-  },
-  "extensions": {
-    "recommendations": [
-      "nwolverson.ide-purescript",
-      "nwolverson.language-purescript",
-      "mvakula.vscode-purty"
-    ]
-  }
+	"folders": [
+		{
+			"name": "purescript-book",
+			"path": "."
+		},
+		{
+			"name": "chapter2",
+			"path": "exercises/chapter2"
+		},
+		{
+			"name": "chapter3",
+			"path": "exercises/chapter3"
+		},
+		{
+			"name": "chapter4",
+			"path": "exercises/chapter4"
+		},
+		{
+			"name": "chapter5",
+			"path": "exercises/chapter5"
+		},
+		{
+			"name": "chapter6",
+			"path": "exercises/chapter6"
+		},
+		{
+			"name": "chapter7",
+			"path": "exercises/chapter7"
+		},
+		{
+			"name": "chapter8",
+			"path": "exercises/chapter8"
+		},
+		{
+			"name": "chapter9",
+			"path": "exercises/chapter9"
+		},
+		{
+			"name": "chapter10",
+			"path": "exercises/chapter10"
+		},
+		{
+			"name": "chapter11",
+			"path": "exercises/chapter11"
+		},
+		{
+			"name": "chapter12",
+			"path": "exercises/chapter12"
+		},
+		{
+			"name": "chapter13",
+			"path": "exercises/chapter13"
+		},
+		{
+			"name": "chapter14",
+			"path": "exercises/chapter14"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"exercises": true
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"nwolverson.ide-purescript",
+			"nwolverson.language-purescript",
+			"mvakula.vscode-purty"
+		]
+	}
 }

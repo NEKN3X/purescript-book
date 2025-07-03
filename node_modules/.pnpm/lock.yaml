@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      purty:
+        specifier: ^7.0.0
+        version: 7.0.0
+
+packages:
+
+  purty@7.0.0:
+    resolution: {integrity: sha512-gHHghPEjRY39GUJ8KnOMRfPArJILGCXwEhX6BmEdNiLgZuCjLLBLyawGiKFjYMfy8H5Dsk5NbgwIGslrPrernA==}
+    os: [linux, darwin, win32]
+    hasBin: true
+
+snapshots:
+
+  purty@7.0.0: {}

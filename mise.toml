@@ -1,4 +1,5 @@
 [tools]
-node = "latest"
-purescript = "latest"
-spago = "latest"
+  node       = "latest"
+  pnpm       = "latest"
+  purescript = "latest"
+  spago      = "latest"
