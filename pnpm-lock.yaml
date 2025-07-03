@@ -8,17 +8,16 @@ importers:
 
   .:
     devDependencies:
-      purty:
-        specifier: ^7.0.0
-        version: 7.0.0
+      purs-tidy:
+        specifier: ^0.11.0
+        version: 0.11.0
 
 packages:
 
-  purty@7.0.0:
-    resolution: {integrity: sha512-gHHghPEjRY39GUJ8KnOMRfPArJILGCXwEhX6BmEdNiLgZuCjLLBLyawGiKFjYMfy8H5Dsk5NbgwIGslrPrernA==}
-    os: [linux, darwin, win32]
+  purs-tidy@0.11.0:
+    resolution: {integrity: sha512-HZ8AS6J7Ka2YVl6Gr/H5NV17TU10yGYUTxVwRd5tKuwsVdFZewXSzZ/HTpWrkhdR2gxSVk0BdnpJhyu//oRc+w==}
     hasBin: true
 
 snapshots:
 
-  purty@7.0.0: {}
+  purs-tidy@0.11.0: {}
