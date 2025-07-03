@@ -1,5 +1,4 @@
 [tools]
   node       = "latest"
-  pnpm       = "latest"
   purescript = "latest"
   spago      = "latest"
