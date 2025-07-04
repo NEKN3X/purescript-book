@@ -3,7 +3,7 @@ module Test.MySolutions where
 import Prelude
 
 import Control.Alternative (guard)
-import Data.Array (concat, filter, foldl, head, length, tail, (..), (:))
+import Data.Array (concat, filter, foldl, head, length, tail, (..))
 import Data.Maybe (Maybe, fromMaybe)
 import Data.Path (Path, filename, isDirectory, ls, size)
 import Test.Examples (allFiles', factors)

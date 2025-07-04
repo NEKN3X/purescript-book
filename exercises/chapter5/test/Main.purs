@@ -9,7 +9,7 @@ import Data.Path (Path(..), filename, root)
 import Data.Tuple.Nested ((/\))
 import Effect (Effect)
 import Test.Examples (allFiles, allFiles', factorial, factorialTailRec, factors, factorsV2, factorsV3, fib, length, lengthTailRec)
-import Test.MySolutions (allTrue, cartesianProduct, countEven, fibTailRec, isEven, isPrime, keepNonNegative, keepNonNegativeRewrite, largestSmallest, onlyFiles, primeFactors, reverse, squared, triples, whereIs, (<$?>))
+import Test.MySolutions (allTrue, cartesianProduct, countEven, isEven, isPrime, keepNonNegative, keepNonNegativeRewrite, largestSmallest, onlyFiles, primeFactors, reverse, squared, triples, whereIs, (<$?>))
 import Test.Unit (TestSuite, suite, test)
 import Test.Unit.Assert (assert, assertFalse)
 import Test.Unit.Assert as Assert
