@@ -5,10 +5,9 @@ import Prelude
 import Data.Array (nub, nubEq)
 import Data.Foldable (class Foldable, foldMap, foldl, foldr, maximum)
 import Data.Generic.Rep (class Generic)
-import Data.Hashable (class Hashable)
 import Data.Maybe (Maybe(..))
 import Data.Monoid (power)
-import Data.Newtype (class Newtype, over2, overF, wrap)
+import Data.Newtype (class Newtype, over2, wrap)
 
 -- Note to reader: Add your solutions to this file
 

@@ -1,7 +1,7 @@
 module Test.Main where
 
 import Prelude
-import Test.MySolutions
+import Test.MySolutions (Complex(..), Extended(..), Multiply(..), NonEmpty(..), OneMore(..), Point(..), Self(..), Shape(..), act, dedupShapes, dedupShapesFast, unsafeMaximum)
 
 import Data.Array (elem)
 import Data.Foldable (foldMap, foldl, foldr)
